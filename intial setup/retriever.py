@@ -2,7 +2,7 @@ import chromadb
 from sentence_transformers import SentenceTransformer
 
 # ── Config ────────────────────────────────────────────────
-CHROMA_PATH = "D:/OneDrive - Sutra Management/Desktop/bfsi_rag/chroma_store"
+CHROMA_PATH = "D:/OneDrive/Desktop/bfsi_rag/chroma_store"
 COLLECTION_NAME = "bfsi_docs"
 EMBED_MODEL = "all-MiniLM-L6-v2"
 TOP_K = 5  # how many chunks to retrieve per query
