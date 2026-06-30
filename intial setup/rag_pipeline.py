@@ -2,7 +2,7 @@ import requests
 import json
 import sys
 import os
-sys.path.append(os.path.dirname(os.path.abspath("D:\OneDrive - Sutra Management\Desktop\bfsi_rag\retriever.py"))) # add retriever.py's directory to path
+sys.path.append(os.path.dirname(os.path.abspath("D:\OneDrive\Desktop\bfsi_rag\retriever.py"))) # add retriever.py's directory to path
 from retriever import retrieve
 from datetime import datetime
 import csv
