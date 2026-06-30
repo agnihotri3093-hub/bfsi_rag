@@ -13,7 +13,7 @@ import time
 from datetime import datetime
 
 # ── Config ────────────────────────────────────────
-CHROMA_PATH      = "D:/OneDrive - Sutra Management/Desktop/bfsi_rag/chroma_store"
+CHROMA_PATH      = "<location>"
 COLLECTION_NAME  = "bfsi_docs"
 EMBED_MODEL_NAME = "all-MiniLM-L6-v2"
 TOP_K            = 3
